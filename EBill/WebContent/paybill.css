@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    box-sizing: border-box;
+}
+.button2
+{
+	text-decoration: none;
+	border-style:none;
+	Background-color:white;
+    color: black;
+    width:90px;
+    font-weight:bold;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 2vw;
+
+}
+.tags{
+    width: 30vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.button
+{
+	text-decoration: none;
+	border-style:none;
+	Background-color:white;
+    color: black;
+    width:35px;
+    font-weight:bold;
+}
+
+.solaraLogo{
+    height: 10vh;
+}
+
+ a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+    height:fit-content;
+    width: 100%;
+    padding-bottom: 15vh;
+    margin-top: 5vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+
+}
+
+table{
+    width: 80%;
+    margin-top: 5vh;
+
+
+}
+th,td{
+    padding: 2vh;
+    text-align: center;
+}
+thead{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.rightFloater{
+    margin-top: 5vh;    
+    position: absolute;
+    bottom: 0;
+    right: 11vw;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(170, 216, 5);
+    color: black;
+    padding: 1vh 3vh ;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.payments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vh;
+
+}
+
+.payments h2{
+    margin: 2vh;
+}
+
+#cpHR{
+    width: 30vw;
+    background-color: rgb(137, 221, 12);
+    height: 0.5vh;
+    border: none;
+}
+
+.payments h3{
+    margin: 4vh 0 2vh 0 ;
+}
+.opts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 13vw;
+    justify-content: center;
+}
+.opts h5{
+    width: 10vw;
+    cursor: pointer;
+    padding: 2vh 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+text-align: center;
+&::selection{
+    border-bottom-color: black;
+}
+
+}
+.screens{
+    width: 30vw;
+    display: flex;
+}
+
+.radios{
+    width: 20vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.radios div{
+    height: 10vh;
+}
+#cardScreen , #upiScreen , #netScreen{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+
+}
+
+#cardScreen input::placeholder , label{
+    color: grey;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: Poppins;
+
+
+}
+
+.inp1 , .inp2{
+    padding: 2vh;
+    width: 20vw;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 1vh 0;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.sides{
+    display: flex;
+    margin-top: 8vh;
+    align-items: flex-start;
+}
+
+.inp2{
+    width: 7.5vw;
+}
+
+b{
+    margin: 1vw;
+}
+
+.proceedBtn{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    margin-top: 5vh;
+    height: 6vh;
+    width: 15vw;
+}
+
+label{
+    color: black;
+}
+
+#PaymentSuccess{
+
+    position: absolute;
+    top:30vh;
+    right: 25vw;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px grey);
+}
+
+#PaymentSuccess img{
+    height: 15vh;
+}

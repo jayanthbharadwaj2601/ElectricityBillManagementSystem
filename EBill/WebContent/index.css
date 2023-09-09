@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
+
+}
+
+h1 b{
+    color: rgb(150, 233, 26);
+    font-size: medium;
+}
+.solaraLogo2{
+    height: 20vh;
+}
+
+.tags{
+    width: 20vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.tags a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.main{
+    height:60vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main h2{
+    margin-top: 12vh;
+
+}
+
+.homeBG{
+    position: fixed;
+    bottom: -15vh;
+    z-index: -1;
+    height: 75vh;
+    left: 5%;
+    
+}
+
+.getStartedButton{
+    padding: 1vh 2vw;
+    background-color: black;
+    margin-top: 5vh;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}

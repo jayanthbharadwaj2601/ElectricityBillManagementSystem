@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="dashboard.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <nav>
+        <h3>Solara</h3>
+        <!-- <div class="tags">
+            <a href="paybill.html"><h4>View Bill</h3> </a>
+            <a href="complaint.html"><h4>Raise Complaint</h3> </a>
+            <a href="complaintStatus.html"><h4>Complaint Status</h4></a>
+        </div> -->
+        <h4>Welcome, NAME </h4>
+    </nav>
+    <div class='main'>
+        <form action='Paybill' method='POST'>
+            <input type='submit' name='submit' value='PayBill'>
+        </form>
+        <form action='Complaint' method='POST'>
+            <input type='submit' name='submit' value='AddComplaint'>
+        </form>
+        <form action='Complaintstatus' method='POST'>
+            <input type='submit' name='submit' value='ComplaintStatus'>
+        </form>
+    </div>
+    
+</body>
+</html>

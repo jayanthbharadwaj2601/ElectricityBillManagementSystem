@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5vh;
+
+
+}
+.formCol{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 39vw;
+    padding: 5vh;
+}
+
+.formCol h2{
+    margin-bottom: 3vh;
+}
+.formBox{
+    display: flex;
+justify-content: flex-start;
+margin: 2vh 0;
+
+}
+
+.formBox h3{
+    width: 9vw;
+    font-size: large;
+}
+
+
+.formBox input{
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+    width: 24vw;
+   
+}
+
+select{
+    outline: none;
+    border: none;
+    border-bottom: 1px black solid;
+
+    margin-right: 0.5vw;
+}
+
+#successAlert{
+    display: none;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vw;
+}
+
+.submitBtn{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1vh ;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5vh;
+
+}
+
+.solaraLogo{
+    height: 10vh;
+}
